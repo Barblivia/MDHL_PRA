@@ -29,8 +29,8 @@ nav {
   display: inline-block;
   position: absolute;
   top: 3vh;
-  left: 100vh;
-  margin: 20px 10%;
+  left: 108vh;
+  margin: 20px 5%;
 }
 nav > a {
   color: white;
