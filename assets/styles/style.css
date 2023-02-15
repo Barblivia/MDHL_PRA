@@ -98,13 +98,6 @@ p.sangrado {
   margin-top: 70px;
 }
 
-footer {
-  position: fixed;
-  bottom: 5px;
-  right: 30px;
-  min-height: 5vh;
-}
-
 #schedule {
   display: flex;
   justify-content: center;
@@ -125,7 +118,8 @@ dt {
 caption {
   caption-side: bottom;
   text-align: center;
-  font-size: 15px;
+  font-size: 20px;
+  font-stretch: expanded;
   padding: 0.3rem;
 }
 th,
@@ -140,3 +134,33 @@ thead tr,
 tfoot tr {
   background-color: #e8e2e2;
 }
+#addInfo {
+  display: flex;
+  justify-content: left;
+  width: 85vw;
+  margin: 35px 5% 0px;
+}
+#advice {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+  font-stretch: expanded;
+  font-weight: bold;
+  }
+  #rules {
+    display: flex;
+    justify-content: left;
+    width: 85vw;
+    margin: 35px 5% 0px;
+    flex-direction: column;
+    gap: .5rem;
+  }
+  li{
+    list-style-position: inside;
+}
+footer {
+  color: #073f5f;
+  display: flex;
+  justify-content:center;
+  align-self: flex-end;
+  }
