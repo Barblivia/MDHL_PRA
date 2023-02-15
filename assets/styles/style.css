@@ -9,7 +9,7 @@ Header {
   background-image: url(../images/design1_image2.jpg);
   width: 85vw;
   height: 30vh;
-  margin: 50px 5% 0px;
+  margin: 65px 5% 0px;
   background-size: cover;
   background-position: 0 30%;
   padding: 0.5rem;
@@ -28,7 +28,7 @@ header > h1 {
 nav {
   display: inline-block;
   position: absolute;
-  top: 3vh;
+  top: 4vh;
   left: 108vh;
   margin: 20px 5%;
 }
@@ -36,12 +36,12 @@ nav > a {
   color: white;
   font-weight: bold;
   text-align: center;
-  background-color: rgb(68, 0, 255);
+  background-color: rgb(10, 92, 95);
   border: 2px solid black;
   padding: 0.5rem;
 }
 a[href="#"] {
-  background-color: green;
+  background-color: rgb(8, 155, 8);
   color: aliceblue;
 }
 
@@ -64,24 +64,29 @@ h2 {
   text-align: center;
   margin: 0px 5% 0px;
   padding: 10 rem;
+  background-color: cadetblue;
 }
 aside {
   position: absolute;
-  width: 25%;
-  margin: 30px 10px 0px 0px;
+  width: 30%;
+  margin: 50px 10px 0px 0px;
   top: 40vh;
   left: 5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 article {
   margin-left: 320px;
   margin-top: 45px;
   width: 65vw;
-  }
+}
 
 p.sangrado {
   text-indent: 20px;
   text-align: justify;
+  margin-bottom: 10px;
 }
 
 #mail {
@@ -98,4 +103,40 @@ footer {
   bottom: 5px;
   right: 30px;
   min-height: 5vh;
+}
+
+#schedule {
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  border: 1px solid black;
+  border-collapse: separate;
+  font-weight: bolder;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+dt {
+  font-weight: bold;
+  border-bottom: 2px dotted rgb(0, 0, 0);
+}
+caption {
+  caption-side: bottom;
+  text-align: center;
+  font-size: 15px;
+  padding: 0.3rem;
+}
+th,
+td {
+  padding: 0.4rem;
+}
+tbody tr:nth-child(even) {
+  background-color: #4699c0;
+}
+tbody tr:nth-child,
+thead tr,
+tfoot tr {
+  background-color: #e8e2e2;
 }
