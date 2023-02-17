@@ -7,7 +7,7 @@
 
 Header {
   background-image: url(../images/design1_image2.jpg);
-  width: 85vw;
+  width: 90vw;
   height: 30vh;
   margin: 65px 5% 0px;
   background-size: cover;
@@ -29,7 +29,7 @@ nav {
   display: inline-block;
   position: absolute;
   top: 4vh;
-  left: 110vh;
+  left: 103vh;
   margin: 20px 5%;
 }
 nav > a {
@@ -58,11 +58,11 @@ body {
   height: 100vh;
 }
 h2 {
-  width: 85vw;
+  width: 90vw;
   border: 2px solid black;
   box-sizing: border-box;
   text-align: center;
-  margin: 0px 5% 0px;
+  margin: 15px 5% 15px;
   padding: 10 rem;
   background-color: cadetblue;
 }
@@ -157,8 +157,32 @@ tfoot tr {
   }
   li{
     list-style-position: inside;
-    /*<!--list-style-type*/
+        /*<!--list-style-type*/
 }
+.formRegistro {
+  display: flex;
+  align-self: center;
+  align-content: center;
+  width: 75vw;
+  margin: 60px 20% 0px;
+  flex-direction: column;
+  gap: .5rem;
+}
+fieldset{
+  margin: 5px;
+  border: 2px solid #4699c0;
+padding: 1%;
+}
+legend{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+submit{
+  font-size: 16px;
+  font-weight: bold;
+}
+
 footer {
   color: #073f5f;
   display: flex;
