@@ -134,6 +134,17 @@ thead tr,
 tfoot tr {
   background-color: #e8e2e2;
 }
+.mapscontent {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+iframe{
+  width:"200";
+  height:"150";
+  border-radius: 2rem;
+}
 #addInfo {
   display: flex;
   justify-content: left;
@@ -146,18 +157,24 @@ tfoot tr {
   font-size: 20px;
   font-stretch: expanded;
   font-weight: bold;
-  }
-  #rules {
-    display: flex;
-    justify-content: left;
-    width: 85vw;
-    margin: 35px 5% 0px;
-    flex-direction: column;
-    gap: .5rem;
-  }
-  li{
-    list-style-position: inside;
-        /*<!--list-style-type*/
+}
+#rules {
+  display: flex;
+  justify-content: left;
+  width: 85vw;
+  margin: 35px 5% 0px;
+  padding: 10px;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+li {
+  list-style-position: inside;
+  /*<!--list-style-type*/
+}
+#ol_letra{
+  list-style-type:lower-latin;
+  padding:2px;
+  margin-left: 25px;
 }
 .formRegistro {
   display: flex;
@@ -166,27 +183,21 @@ tfoot tr {
   width: 75vw;
   margin: 60px 20% 0px;
   flex-direction: column;
-  gap: .5rem;
+  gap: 0.5rem;
 }
-fieldset{
+fieldset {
   margin: 5px;
   border: 2px solid #4699c0;
-padding: 1%;
+  padding: 1%;
 }
-legend{
+legend {
   font-size: 16px;
   font-weight: bold;
 }
-
-submit{
-  font-size: 16px;
-  font-weight: bold;
-}
-
-footer {
+footer p {
   color: #073f5f;
+  padding: 20px;
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-self: flex-end;
-  }
-/*list-style-type
+}

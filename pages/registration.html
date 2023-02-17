@@ -74,8 +74,8 @@
                         <legend>Other information</legend>
                         <fieldset>
                             <legend>Which elementary school do you live near?</legend>
-                            <label for="grade">Closest School:</label>
-                            <select id="grade" name="grade">
+                            <label for="school">Closest School:</label>
+                            <select id="school" name="school">
                                 <option value="katze">AJ Katzenmaier</option>
                                 <option value="green">Greenbay</option>
                                 <option value="howar">Howard A Yeager</option>
@@ -97,19 +97,19 @@
                         </fieldset>
                         <fieldset>
                             <legend>Uniform Size</legend>
-                            <input type="radio" id="size1" name="size" value="Youth Small">
+                            <input type="radio" id="size1" name="size" value="YS">
                             <label for="size1">Youth Small</label>
-                            <input type="radio" id="size2" name="size" value="Youth Medium">
+                            <input type="radio" id="size2" name="size" value="YM">
                             <label for="size2">Youth Medium</label>
-                            <input type="radio" id="size3" name="size" value="Youth Large">
+                            <input type="radio" id="size3" name="size" value="YL">
                             <label for="size3">Youth Large</label>
-                            <input type="radio" id="size4" name="size" value="Small">
+                            <input type="radio" id="size4" name="size" value="S">
                             <label for="size4">Small</label>
-                            <input type="radio" id="size5" name="size" value="Medium">
+                            <input type="radio" id="size5" name="size" value="M">
                             <label for="size5">Medium</label>
-                            <input type="radio" id="size6" name="size" value="Large">
+                            <input type="radio" id="size6" name="size" value="L">
                             <label for="size6">Large</label>
-                            <input type="radio" id="size7" name="size" value="Extra-Large">
+                            <input type="radio" id="size7" name="size" value="XL">
                             <label for="size7">Extra-Large</label>
                         </fieldset>
                         <fieldset>
@@ -132,13 +132,14 @@
                                     terms. (Required)</label>
                             </fieldset>
                             <fieldset>
-                                <label for="signa">Parent/Guardian Name:</label>
-                                <input type="text" id="signa" name="signa">
+                                <label for="signa">Parent/Guardian Name*:</label>
+                                <input required type="text" id="signa" name="signa">
                                 <label for="datesig">Date:</label>
                                 <input type="text" id="datesig" name="datesig">
                                 <input type="submit" value="Submit">
                             </fieldset>
                         </fieldset>
+                    </fieldset>
                 </form>
             </div>
 
